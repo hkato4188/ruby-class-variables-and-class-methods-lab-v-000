@@ -31,7 +31,7 @@ class Song
   
   def self.genre_count
     binding.pry
-    @@genres.map do |k,v|
+    genre_count = Hash.new
       
       
     end
