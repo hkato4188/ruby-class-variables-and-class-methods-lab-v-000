@@ -32,6 +32,7 @@ class Song
   def self.genre_count
     binding.pry
     genre_count = Hash.new
+    
       
       
     end
