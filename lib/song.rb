@@ -44,7 +44,7 @@ class Song
     @@artists.each do |artist| 
       artist_array[artist]? artist_array[artist] += 1 : genre_arra[artist] = 1
     end
-    genre_array
+    artist_array
   end  
   
 end
