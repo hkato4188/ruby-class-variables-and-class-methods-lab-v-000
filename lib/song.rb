@@ -46,7 +46,6 @@ class Song
     end
     artist_array
   end  
-  
 end
 
 
