@@ -42,7 +42,7 @@ class Song
     artist_array = Hash.new
 
     @@artists.each do |artist| 
-      artist_array[genre]? artist_array[genre] += 1 : genre_array[genre] = 1
+      artist_array[artist]? artist_array[artist] += 1 : genre_arra[artist] = 1
     end
     genre_array
   end  
