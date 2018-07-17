@@ -38,7 +38,14 @@ class Song
     genre_array
   end
   
-  
+  def self.artist_count
+    genre_array = Hash.new
+
+    @@genres.each do |genre| 
+      genre_array[genre]? genre_array[genre] += 1 : genre_array[genre] = 1
+    end
+    genre_array
+  end  
   
 end
 
